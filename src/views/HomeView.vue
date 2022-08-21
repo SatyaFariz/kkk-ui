@@ -43,7 +43,7 @@
 
             <img class="absolute w-[27.vw] h-[352px] rounded-tl-[50%] right-0 top-[5.5vw]" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/6254768f1d796259ed2119cf_S18.1_38NewcastleStreet_EXT_103Backyard_Final-p-800.jpeg" alt="ks">
 
-            <div class="text-center text-[7.25vw] leading-[1] z-99 top-[2vw] relative text-white uppercase">
+            <div class="text-center text-[7.25vw] leading-[1] z-99 top-[2vw] relative text-white uppercase font-thin">
                 Kresna
                 <br/>
                 Kartika
@@ -78,15 +78,15 @@
 
         <div class="grid grid-cols-3">
             <div class="flex flex-col justify-end">
-                <p class="text-[#94a3b8]">Branding and Marketing by</p>
-                <h4 class="text-white">KKK ARCHITECT</h4>
+                <p class="text-[#94a3b8] text-xs mb-[3px]">Branding and Marketing by</p>
+                <h4 class="text-white text-xs">KKK ARCHITECT</h4>
             </div>
             <div class="flex justify-center items-end">
-                <a class="text-[#94a3b8]" href="#top">Back to top</a>
+                <a class="text-[#94a3b8] text-base" href="#top">Back to top</a>
             </div>
             <div class="flex flex-col items-end justify-end">
-                <p class="text-[#94a3b8]">© {{ new Date().getFullYear() }} Kresna Kartika Karya — All rights reserved</p>
-                <h4 class="text-white">Architectural images are artist impressions</h4>
+                <p class="text-[#94a3b8] text-xs mb-[3px]">© {{ new Date().getFullYear() }} Kresna Kartika Karya — All rights reserved</p>
+                <h4 class="text-white text-xs">Architectural images are artist impressions</h4>
             </div>
         </div>
     </footer>
