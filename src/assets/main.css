@@ -6,4 +6,40 @@
     html {
       font-family: Sangbleuogserif,'Times New Roman',sans-serif;
     }
-  }
+}
+
+@font-face {
+    font-family: 'Sangbleuogserif';
+    src: url('https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/61dffd372a617f68280393a6_SangBleuOGSerif-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Sangbleuogserif';
+    src: url('https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/61dffd434e1ac472ed80422a_SangBleuOGSerif-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Sangbleuogserif';
+    src: url('https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/61dffd4cbb525b6f6029a74b_SangBleuOGSerif-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Sangbleuogserif';
+    src: url('https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/61dffd524cb1aa540f1dd64d_SangBleuOGSerif-RegularItalic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Sangbleuogsans';
+    src: url('https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/626a93434fb5c85859d2630f_SangBleuOGSans-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
