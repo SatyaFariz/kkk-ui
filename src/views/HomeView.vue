@@ -1,10 +1,17 @@
-<script setup>
+<script>
+export default {
+  data() {
+    return {
+      contactLink: 'https://wa.me/6282124707605'
+    }
+  }
+}
 </script>
 
 <template>
     <header class="flex justify-between px-14 py-7">
         <img src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/62547684c1f22a0134f063cd_callista-logo-dark.svg"/>
-        <a class="uppercase font-normal" href="https://google.com" target="_blank">Enquire</a>
+        <a class="uppercase font-normal" :href="contactLink" target="_blank">Enquire</a>
     </header>
     <main class="pt-20">
         <div class="absolute left-1/2 transform -translate-x-1/2 text-center">
@@ -12,7 +19,7 @@
             <p class="max-w-[30vw] text-center mt-[10px] mb-[30px] mx-auto font-normal text-[1.15vw]">
                 One of Sydney’s most refined neighbourhoods is now home to an exclusive new development that fuses contemporary luxury with timeless design. Welcome to Callista.
             </p>
-            <a href="google.com" target="_blank" class="inline-block">
+            <a :href="contactLink" target="_blank" class="inline-block">
                 <span class="uppercase font-medium">Enquire</span>
                 <img class="ml-3 inline" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/62599f2afcc890357e83d01f_arrow-dark.svg" alt="arrow"/>
             </a>
@@ -32,7 +39,7 @@
             <p class="text-center leading-[1.5] font-light text-xl mb-[24px] font-[Sangbleuogsans,sans-serif]">
                 From the grand entrance that sweeps you into its embrace, Callista promises something truly beguiling. Behold an enclave of 8 luxuriously appointed apartments, generously proportioned and meticulously crafted. Step inside and you’ll find Callista has cast its spell, and your destiny awaits.
             </p>
-            <a href="google.com" target="_blank" class="inline-block">
+            <a :href="contactLink" target="_blank" class="inline-block">
                 <span class="uppercase font-medium">Enquire</span>
                 <img class="ml-3 inline" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/62599f2afcc890357e83d01f_arrow-dark.svg" alt="arrow"/>
             </a>
@@ -54,7 +61,7 @@
         </div>
 
         <div class="mt-[120px] pb-[45px]">
-            <div class="text-white text-center text-[1.12rem] uppercase mb-[1.5rem] font-medium">Where To?</div>
+            <div class="text-white text-center text-[1.12rem] uppercase mb-[1.5rem] font-medium invisible">Where To?</div>
             <div class="flex justify-center gap-[2.5rem]">
                 <a class="text-white font-thin">
                     Outside
@@ -71,7 +78,7 @@
                 <a class="text-white font-thin text-base">
                     Team
                 </a>
-                <a class="text-white font-thin text-base" href="#top">
+                <a class="text-white font-thin text-base" :href="contactLink" target="_blank">
                     Enquire
                 </a>
             </div>
