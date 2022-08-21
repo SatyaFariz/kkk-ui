@@ -2,8 +2,9 @@
 </script>
 
 <template>
-    <header class="grid grid-cols-3 px-14 py-7">
+    <header class="flex justify-between px-14 py-7">
         <img src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/62547684c1f22a0134f063cd_callista-logo-dark.svg"/>
+        <a class="uppercase font-normal" href="https://google.com" target="_blank">Enquire</a>
     </header>
     <main class="pt-20">
         <div class="absolute left-1/2 transform -translate-x-1/2 text-center">
@@ -22,13 +23,13 @@
             </div>
         </div>
         <div class="p-[120px]">
-            <p class="text-center leading-[1.5] font-light text-xl">
+            <p class="text-center leading-[1.5] font-light text-xl font-[Sangbleuogsans,sans-serif]">
                 From the grand entrance that sweeps you into its embrace, Callista promises something truly beguiling. Behold an enclave of 8 luxuriously appointed apartments, generously proportioned and meticulously crafted. Step inside and you’ll find Callista has cast its spell, and your destiny awaits.
             </p>
         </div>
         <img class="max-h-[46vw] w-full" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/6286bffa4218c2123adbf172_S04_38NewcastleStreet_INT_PH%20203%20Living_FINAL.jpg" alt="kd"/>
         <div class="p-[120px] text-center">
-            <p class="text-center leading-[1.5] font-light text-xl mb-[24px]">
+            <p class="text-center leading-[1.5] font-light text-xl mb-[24px] font-[Sangbleuogsans,sans-serif]">
                 From the grand entrance that sweeps you into its embrace, Callista promises something truly beguiling. Behold an enclave of 8 luxuriously appointed apartments, generously proportioned and meticulously crafted. Step inside and you’ll find Callista has cast its spell, and your destiny awaits.
             </p>
             <a href="google.com" target="_blank" class="inline-block">
