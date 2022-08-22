@@ -26,7 +26,7 @@ export default {
                 <img class="ml-3 inline" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/62599f2afcc890357e83d01f_arrow-dark.svg" alt="arrow"/>
             </a>
         </div>
-        <div class="p-4 lg:p-20 lg:pr-0 lg:pb-0">
+        <div class="p-4 lg:p-20 lg:pr-0 lg:pb-0 pr-0 pb-0">
             <div class="p-10 rounded-tl-[50%] bg-[#f7f5ec] pr-0">
                 <img class="rounded-tl-[50%]" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/625966392ae0e1bd8e9f7c71_home-hero-hr.jpg" alt="imaks">
             </div>
@@ -46,24 +46,24 @@ export default {
                 </div>
                 <div>
                     <div>
-                        <h4 class="text-[3vw] lg:text-[1.5vw] font-black lg:mb-0 mb-0 uppercase">Architectural Design</h4>
-                        <p class="leading-[1.5] font-light text-xs lg:text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
+                        <div class="text-sm lg:text-[1.5vw] font-medium mb-1">Architectural Design</div>
+                        <p class="leading-[1.5] font-light text-sm lg:text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
                             Kami memberikan desain bangunan yang sesuai dengan keinginan klien. 
                             Desain bangunan merupakan gambar yang siap digunakan untuk membangun suatu bangunan.
                         </p>
                     </div>
 
                     <div class="ml-14 lg:ml-0">
-                        <h4 class="text-[3vw] lg:text-[1.5vw] font-black lg:mb-0 mb-0 uppercase">Interior Design</h4>
-                        <p class="leading-[1.5] font-light text-xs lg:text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
+                        <div class="text-sm lg:text-[1.5vw] font-medium mb-1">Interior Design</div>
+                        <p class="leading-[1.5] font-light text-sm lg:text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
                             Kami memberikan desain Interior Ruang yang sesuai dengan keinginan klien. 
                             Desain Interior merupakan gambar yang siap digunakan untuk mengatur atau mengkonfigurasi tata letak perabot.
                         </p>
                     </div>
 
                     <div class="ml-4 lg:ml-0">
-                        <h4 class="text-[3vw] lg:text-[1.5vw] font-black lg:mb-0 mb-0 uppercase">Design Build</h4>
-                        <p class="leading-[1.5] font-light text-xs lg:text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
+                        <div class="text-sm lg:text-[1.5vw] font-medium mb-1">Design Build</div>
+                        <p class="leading-[1.5] font-light text-sm lg:text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
                             Kami dapat membantu untuk merealisasikan desain hingga terbangun. 
                             Kami membantu pemilik bangunan dari awal hingga projek tersebut selesai.
                         </p>
