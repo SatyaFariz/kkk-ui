@@ -14,9 +14,9 @@ export default {
         <a class="uppercase font-normal" :href="contactLink" target="_blank">Enquire</a>
     </header>
     <main class="pt-20">
-        <div class="absolute left-1/2 transform -translate-x-1/2 text-center">
-            <h1 class="text-[7.3vw] font-thin leading-[1] uppercase lg:w-[1000px] text-[#15242e]">Kresna <br/> Kartika Karya</h1>
-            <p class="max-w-[30vw] text-center mt-[10px] mb-[30px] mx-auto font-normal text-[1.15vw]">
+        <div class="lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2 text-center pt-0 p-4">
+            <h1 class="text-[14vw] lg:text-[7.3vw] font-thin leading-[1] uppercase lg:w-[1000px] text-[#15242e]">Kresna <br/> Kartika Karya</h1>
+            <p class="lg:max-w-[30vw] text-center mt-[10px] mb-[30px] mx-auto font-normal text-sm">
                 Dengan tim yang terdiri dari para profesional muda yang memiliki integritas dan kreativitas dalam bidangnya,
                 kami berkomitmen memberikan pelayanan terbaik yang bertujuan pada kesuksesan setiap proyek agar terciptanya
                 kepuasan klien.
