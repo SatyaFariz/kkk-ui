@@ -31,7 +31,7 @@ export default {
                 <img class="rounded-tl-[50%]" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/625966392ae0e1bd8e9f7c71_home-hero-hr.jpg" alt="imaks">
             </div>
         </div>
-        <div class="lg:p-[120px] p-[70px] text-center">
+        <div class="lg:p-[120px] py-[70px] px-4 text-center">
             <h2 class="text-[6.5vw] lg:text-[4.4vw] text-[#314c5d] lg:mb-0 mb-2">Our Mission</h2>
             <p class="text-center leading-[1.5] font-light text-medium lg:text-xl font-[Sangbleuogsans,sans-serif]">
                 Memberikan pelayanan terbaik, selalu memberikan inovasi dan menciptakan design terbaik sesuai dengan keinginan klien, 
@@ -39,31 +39,31 @@ export default {
             </p>
         </div>
         <img class="max-h-[46vw] w-full" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/6286bffa4218c2123adbf172_S04_38NewcastleStreet_INT_PH%20203%20Living_FINAL.jpg" alt="kd"/>
-        <div class="p-[120px]">
-            <div class="grid grid-cols-2 gap-20">
-                <div class="flex items-center justify-end">
-                    <h2 class="text-[6.5vw] lg:text-[4.4vw] text-[#314c5d] lg:mb-0 mb-2">Our Services</h2>
+        <div class="lg:p-[120px] py-[70px] px-4">
+            <div class="lg:grid lg:grid-cols-2 gap-20">
+                <div class="flex items-center justify-center lg:justify-end">
+                    <h2 class="text-[6.5vw] lg:text-[4.4vw] text-[#314c5d] lg:mb-0 mb-4">Our Services</h2>
                 </div>
                 <div>
                     <div>
-                        <h4 class="text-[6.5vw] lg:text-[1.5vw] font-bold lg:mb-0 mb-2 uppercase">Architectural Design</h4>
-                        <p class="leading-[1.5] font-light text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
+                        <h4 class="text-[3vw] lg:text-[1.5vw] font-black lg:mb-0 mb-0 uppercase">Architectural Design</h4>
+                        <p class="leading-[1.5] font-light text-xs lg:text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
                             Kami memberikan desain bangunan yang sesuai dengan keinginan klien. 
                             Desain bangunan merupakan gambar yang siap digunakan untuk membangun suatu bangunan.
                         </p>
                     </div>
 
-                    <div>
-                        <h4 class="text-[6.5vw] lg:text-[1.5vw] font-bold lg:mb-0 mb-2 uppercase">Interior Design</h4>
-                        <p class="leading-[1.5] font-light text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
+                    <div class="ml-14 lg:ml-0">
+                        <h4 class="text-[3vw] lg:text-[1.5vw] font-black lg:mb-0 mb-0 uppercase">Interior Design</h4>
+                        <p class="leading-[1.5] font-light text-xs lg:text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
                             Kami memberikan desain Interior Ruang yang sesuai dengan keinginan klien. 
                             Desain Interior merupakan gambar yang siap digunakan untuk mengatur atau mengkonfigurasi tata letak perabot.
                         </p>
                     </div>
 
-                    <div>
-                        <h4 class="text-[6.5vw] lg:text-[1.5vw] font-bold lg:mb-0 mb-2 uppercase">Design Build</h4>
-                        <p class="leading-[1.5] font-light text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
+                    <div class="ml-4 lg:ml-0">
+                        <h4 class="text-[3vw] lg:text-[1.5vw] font-black lg:mb-0 mb-0 uppercase">Design Build</h4>
+                        <p class="leading-[1.5] font-light text-xs lg:text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
                             Kami dapat membantu untuk merealisasikan desain hingga terbangun. 
                             Kami membantu pemilik bangunan dari awal hingga projek tersebut selesai.
                         </p>
