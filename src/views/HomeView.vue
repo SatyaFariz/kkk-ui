@@ -27,7 +27,7 @@ export default {
             </a>
         </div>
         <div class="p-4 lg:p-20 lg:pr-0 lg:pb-0 pr-0 pb-0">
-            <div class="p-10 rounded-tl-[50%] bg-[#f7f5ec] pr-0">
+            <div class="p-3 lg:p-10 rounded-tl-[50%] bg-[#f7f5ec] pr-0">
                 <img class="rounded-tl-[50%]" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/625966392ae0e1bd8e9f7c71_home-hero-hr.jpg" alt="imaks">
             </div>
         </div>
