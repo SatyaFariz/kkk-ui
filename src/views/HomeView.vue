@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    <header class="flex justify-between px-14 py-7">
+    <header class="flex justify-between lg:px-20 py-7">
         <img src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/62547684c1f22a0134f063cd_callista-logo-dark.svg"/>
         <a class="uppercase font-normal" :href="contactLink" target="_blank">Enquire</a>
     </header>
@@ -24,7 +24,7 @@ export default {
                 <img class="ml-3 inline" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/62599f2afcc890357e83d01f_arrow-dark.svg" alt="arrow"/>
             </a>
         </div>
-        <div class="p-20 pr-0 pb-0">
+        <div class="lg:p-20 pr-0 pb-0">
             <div class="p-10 rounded-tl-[50%] bg-[#f7f5ec] pr-0">
                 <img class="rounded-tl-[50%]" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/625966392ae0e1bd8e9f7c71_home-hero-hr.jpg" alt="imaks">
             </div>
@@ -45,7 +45,7 @@ export default {
             </a>
         </div>
     </main>
-    <footer class="p-20 pb-[30px] bg-[#15242e]">
+    <footer class="lg:p-20 pb-[30px] bg-[#15242e]">
         <div class="relative">
             <img class="absolute w-[27.5vw] h-[352px] rounded-br-[50%]" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/62547688e3e50d82bb3e6a05_S01.2_38%20Newcastle%20Street_EXT_Vignette_Final-p-800.jpeg" alt="test"/>
 
@@ -84,14 +84,14 @@ export default {
         </div>
 
         <div class="lg:grid lg:grid-cols-3 flex flex-col gap-y-[36px]">
-            <div class="flex flex-col justify-end">
+            <div class="flex flex-col justify-end lg:items-start">
                 <p class="text-[#94a3b8] text-xs mb-[3px] text-center">Branding and Marketing by</p>
                 <h4 class="text-white text-xs text-center">KKK ARCHITECT</h4>
             </div>
             <div class="flex justify-center items-end order-[-1] lg:order-[unset]">
                 <a class="text-[#94a3b8] text-base font-light" href="#top">Back to top</a>
             </div>
-            <div class="flex flex-col items-end justify-end">
+            <div class="flex flex-col justify-end lg:items-end">
                 <p class="text-[#94a3b8] text-xs mb-[3px] text-center">© {{ new Date().getFullYear() }} Kresna Kartika Karya — All rights reserved</p>
                 <h4 class="text-white text-xs text-center">Architectural images are artist impressions</h4>
             </div>
