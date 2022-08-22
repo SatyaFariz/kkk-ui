@@ -1,8 +1,64 @@
 <script>
+import Fragment from '../components/Fragment.vue'
 export default {
+    components: {
+        Fragment
+    },
   data() {
     return {
-      contactLink: 'https://wa.me/6282124707605'
+      contack_link: 'https://wa.me/6282124707605',
+      project_phases: [
+          {
+              idx: 0,
+              us: 'Project start',
+              you: ''
+          },
+          {
+              idx: 1,
+              us: '',
+              you: 'Call us'
+          },
+          {
+              idx: 2,
+              us: 'survey',
+              you: 'first meeting'
+          },
+          {
+              idx: 3,
+              us: 'sending offer',
+              you: 'down payment 30%'
+          },
+          {
+              idx: 4,
+              us: 'pre-design phase',
+              you: 'second meeting'
+          },
+          {
+              idx: 5,
+              us: 'fist design proposal',
+              you: 'third meeting'
+          },
+          {
+              idx: 6,
+              us: 'design phase',
+              you: 'second term payment 30%'
+          },
+          {
+              idx: 7,
+              us: 'revision phase detail drawing',
+              you: 'fourth meeting'
+          },
+          {
+              idx: 8,
+              us: 'Project handover',
+              you: 'final payment 40%'
+          },
+          {
+              idx: 9,
+              us: 'Project finish',
+              you: ''
+          }
+      ]
     }
   }
 }
@@ -11,7 +67,7 @@ export default {
 <template>
     <header class="flex justify-between p-4 lg:px-20 py-7">
         <img src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/62547684c1f22a0134f063cd_callista-logo-dark.svg"/>
-        <a class="uppercase font-normal" :href="contactLink" target="_blank">Enquire</a>
+        <a class="uppercase font-normal" :href="contack_link" target="_blank">Enquire</a>
     </header>
     <main class="pt-20">
         <div class="lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2 text-center pt-0 p-4">
@@ -21,7 +77,7 @@ export default {
                 kami berkomitmen memberikan pelayanan terbaik yang bertujuan pada kesuksesan setiap proyek agar terciptanya
                 kepuasan klien.
             </p>
-            <a :href="contactLink" target="_blank" class="inline-block">
+            <a :href="contack_link" target="_blank" class="inline-block">
                 <span class="uppercase font-medium">Enquire</span>
                 <img class="ml-3 inline" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/62599f2afcc890357e83d01f_arrow-dark.svg" alt="arrow"/>
             </a>
@@ -72,7 +128,7 @@ export default {
                 
             </div>
 <!--             
-            <a :href="contactLink" target="_blank" class="inline-block">
+            <a :href="contack_link" target="_blank" class="inline-block">
                 <span class="uppercase font-medium">Enquire</span>
                 <img class="ml-3 inline" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/62599f2afcc890357e83d01f_arrow-dark.svg" alt="arrow"/>
             </a> -->
@@ -157,105 +213,21 @@ export default {
             </div>
         
             <div class="flex flex-col justify-center gap-14">
-                <div class="flex justify-center">
-                    <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Project Start</div>
-                </div>
-                <div class="grid grid-cols-[1fr_auto_1fr] gap-20">
-                    <div class="flex justify-end">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase"></div>
+                <div v-for="(phase, index) in project_phases" :key="phase.idx">
+                    <div v-if="index === 0 || index === project_phases.length - 1" class="flex justify-center">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">{{phase.us}}</div>
                     </div>
-                    <div class="flex justify-center">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">1</div>
+                    <div v-else class="grid grid-cols-[1fr_auto_1fr] gap-20">
+                        <div class="flex justify-end">
+                            <div class="text-sm lg:text-[1.5vw] font-medium uppercase">{{ phase.us }}</div>
+                        </div>
+                        <div class="flex justify-center">
+                            <div class="text-sm lg:text-[1.5vw] font-medium uppercase">{{ index }}</div>
+                        </div>
+                        <div class="flex justify-start">
+                            <div class="text-sm lg:text-[1.5vw] font-medium uppercase">{{ phase.you }}</div>
+                        </div>
                     </div>
-                    <div class="flex justify-start">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Call us</div>
-                    </div>
-                </div>
-                <div class="grid grid-cols-[1fr_auto_1fr] gap-20">
-                    <div class="flex justify-end">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Survey</div>
-                    </div>
-                    <div class="flex justify-center">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">2</div>
-                    </div>
-                    <div class="flex justify-start">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">First meeting</div>
-                    </div>
-                </div>
-                 <div class="grid grid-cols-[1fr_auto_1fr] gap-20">
-                    <div class="flex justify-end">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Sending offer</div>
-                    </div>
-                    <div class="flex justify-center">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">3</div>
-                    </div>
-                    <div class="flex justify-start">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Down payment 30%</div>
-                    </div>
-                </div>
-
-                 <div class="grid grid-cols-[1fr_auto_1fr] gap-20">
-                    <div class="flex justify-end">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Pre-design phase</div>
-                    </div>
-                    <div class="flex justify-center">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">4</div>
-                    </div>
-                    <div class="flex justify-start">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Second meeting</div>
-                    </div>
-                </div>
-
-                 <div class="grid grid-cols-[1fr_auto_1fr] gap-20">
-                    <div class="flex justify-end">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">First design proposal</div>
-                    </div>
-                    <div class="flex justify-center">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">5</div>
-                    </div>
-                    <div class="flex justify-start">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Third meeting</div>
-                    </div>
-                </div>
-
-                 <div class="grid grid-cols-[1fr_auto_1fr] gap-20">
-                    <div class="flex justify-end">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Design phase</div>
-                    </div>
-                    <div class="flex justify-center">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">6</div>
-                    </div>
-                    <div class="flex justify-start">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Second term payment 30%</div>
-                    </div>
-                </div>
-
-                 <div class="grid grid-cols-[1fr_auto_1fr] gap-20">
-                    <div class="flex justify-end">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Revision phase detail drawing</div>
-                    </div>
-                    <div class="flex justify-center">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">7</div>
-                    </div>
-                    <div class="flex justify-start">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Fourth meeting</div>
-                    </div>
-                </div>
-
-                 <div class="grid grid-cols-[1fr_auto_1fr] gap-20">
-                    <div class="flex justify-end">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Project handover</div>
-                    </div>
-                    <div class="flex justify-center">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">2</div>
-                    </div>
-                    <div class="flex justify-start">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Final payment 40%</div>
-                    </div>
-                </div>
-
-                <div class="flex justify-center">
-                    <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Project Finish</div>
                 </div>
             </div>
         </div>
@@ -292,7 +264,7 @@ export default {
                 <a class="text-white font-light text-base">
                     Team
                 </a>
-                <a class="text-white font-light text-base" :href="contactLink" target="_blank">
+                <a class="text-white font-light text-base" :href="contack_link" target="_blank">
                     Enquire
                 </a>
             </div>
