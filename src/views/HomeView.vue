@@ -15,7 +15,7 @@ export default {
     </header>
     <main class="pt-20">
         <div class="absolute left-1/2 transform -translate-x-1/2 text-center">
-            <h1 class="text-[7.3vw] font-thin leading-[1] uppercase w-[1000px]">Kresna <br/> Kartika Karya</h1>
+            <h1 class="text-[7.3vw] font-thin leading-[1] uppercase lg:w-[1000px]">Kresna <br/> Kartika Karya</h1>
             <p class="max-w-[30vw] text-center mt-[10px] mb-[30px] mx-auto font-normal text-[1.15vw]">
                 One of Sydney’s most refined neighbourhoods is now home to an exclusive new development that fuses contemporary luxury with timeless design. Welcome to Callista.
             </p>
@@ -60,9 +60,8 @@ export default {
             </h1>
         </div>
 
-        <div class="mt-[120px] pb-[45px]">
-            <div class="text-white text-center text-[1.12rem] uppercase mb-[1.5rem] font-medium invisible">Where To?</div>
-            <div class="flex justify-center gap-[2.5rem]">
+        <div class="mt-[170px] pb-[45px]">
+            <div class="flex justify-center lg:gap-[2.5rem] gap-x-[12px] gap-y-[16px] flex-wrap">
                 <a class="text-white font-thin">
                     Outside
                 </a>
@@ -84,17 +83,17 @@ export default {
             </div>
         </div>
 
-        <div class="grid grid-cols-3">
+        <div class="lg:grid lg:grid-cols-3 flex flex-col gap-y-[36px]">
             <div class="flex flex-col justify-end">
-                <p class="text-[#94a3b8] text-xs mb-[3px]">Branding and Marketing by</p>
-                <h4 class="text-white text-xs">KKK ARCHITECT</h4>
+                <p class="text-[#94a3b8] text-xs mb-[3px] text-center">Branding and Marketing by</p>
+                <h4 class="text-white text-xs text-center">KKK ARCHITECT</h4>
             </div>
-            <div class="flex justify-center items-end">
+            <div class="flex justify-center items-end order-[-1] lg:order-[unset]">
                 <a class="text-[#94a3b8] text-base font-light" href="#top">Back to top</a>
             </div>
             <div class="flex flex-col items-end justify-end">
-                <p class="text-[#94a3b8] text-xs mb-[3px]">© {{ new Date().getFullYear() }} Kresna Kartika Karya — All rights reserved</p>
-                <h4 class="text-white text-xs">Architectural images are artist impressions</h4>
+                <p class="text-[#94a3b8] text-xs mb-[3px] text-center">© {{ new Date().getFullYear() }} Kresna Kartika Karya — All rights reserved</p>
+                <h4 class="text-white text-xs text-center">Architectural images are artist impressions</h4>
             </div>
         </div>
     </footer>
