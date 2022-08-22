@@ -144,6 +144,121 @@ export default {
                 
             </div>
         </div>
+
+        <div class="lg:p-[120px] py-[70px]">
+            <div class="lg:grid lg:grid-cols-3 gap-20">
+                <div class="flex items-center lg:justify-center lg:justify-end">
+                    <h2 class="text-[6.5vw] lg:text-[4.4vw] text-[#314c5d] lg:mb-0 mb-4">Us</h2>
+                </div>
+                <div></div>
+                <div class="flex items-center lg:justify-center lg:justify-end">
+                    <h2 class="text-[6.5vw] lg:text-[4.4vw] text-[#314c5d] lg:mb-0 mb-4">You</h2>
+                </div>
+            </div>
+        
+            <div class="flex flex-col justify-center gap-14">
+                <div class="flex justify-center">
+                    <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Project Start</div>
+                </div>
+                <div class="grid grid-cols-[1fr_auto_1fr] gap-20">
+                    <div class="flex justify-end">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase"></div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">1</div>
+                    </div>
+                    <div class="flex justify-start">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Call us</div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-[1fr_auto_1fr] gap-20">
+                    <div class="flex justify-end">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Survey</div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">2</div>
+                    </div>
+                    <div class="flex justify-start">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">First meeting</div>
+                    </div>
+                </div>
+                 <div class="grid grid-cols-[1fr_auto_1fr] gap-20">
+                    <div class="flex justify-end">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Sending offer</div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">3</div>
+                    </div>
+                    <div class="flex justify-start">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Down payment 30%</div>
+                    </div>
+                </div>
+
+                 <div class="grid grid-cols-[1fr_auto_1fr] gap-20">
+                    <div class="flex justify-end">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Pre-design phase</div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">4</div>
+                    </div>
+                    <div class="flex justify-start">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Second meeting</div>
+                    </div>
+                </div>
+
+                 <div class="grid grid-cols-[1fr_auto_1fr] gap-20">
+                    <div class="flex justify-end">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">First design proposal</div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">5</div>
+                    </div>
+                    <div class="flex justify-start">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Third meeting</div>
+                    </div>
+                </div>
+
+                 <div class="grid grid-cols-[1fr_auto_1fr] gap-20">
+                    <div class="flex justify-end">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Design phase</div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">6</div>
+                    </div>
+                    <div class="flex justify-start">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Second term payment 30%</div>
+                    </div>
+                </div>
+
+                 <div class="grid grid-cols-[1fr_auto_1fr] gap-20">
+                    <div class="flex justify-end">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Revision phase detail drawing</div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">7</div>
+                    </div>
+                    <div class="flex justify-start">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Fourth meeting</div>
+                    </div>
+                </div>
+
+                 <div class="grid grid-cols-[1fr_auto_1fr] gap-20">
+                    <div class="flex justify-end">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Project handover</div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">2</div>
+                    </div>
+                    <div class="flex justify-start">
+                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Final payment 40%</div>
+                    </div>
+                </div>
+
+                <div class="flex justify-center">
+                    <div class="text-sm lg:text-[1.5vw] font-medium uppercase">Project Finish</div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="p-4 lg:p-20 pt-[25px] pb-[30px] bg-[#15242e]">
         <div class="relative min-h-[120vw] lg:min-h-[unset] flex justify-center items-center">
