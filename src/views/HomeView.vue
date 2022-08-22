@@ -66,22 +66,22 @@ export default {
 
         <div class="lg:mt-[170px] mt-[25px] pb-[45px]">
             <div class="flex justify-center lg:gap-[2.5rem] gap-x-[12px] gap-y-[16px] flex-wrap">
-                <a class="text-white font-thin">
+                <a class="text-white font-light">
                     Outside
                 </a>
-                <a class="text-white font-thin text-base">
+                <a class="text-white font-light text-base">
                     Interior
                 </a>
-                <a class="text-white font-thin text-base">
+                <a class="text-white font-light text-base">
                     Location
                 </a>
-                <a class="text-white font-thin text-base">
+                <a class="text-white font-light text-base">
                     Video
                 </a>
-                <a class="text-white font-thin text-base">
+                <a class="text-white font-light text-base">
                     Team
                 </a>
-                <a class="text-white font-thin text-base" :href="contactLink" target="_blank">
+                <a class="text-white font-light text-base" :href="contactLink" target="_blank">
                     Enquire
                 </a>
             </div>
