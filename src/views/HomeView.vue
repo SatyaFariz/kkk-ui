@@ -39,14 +39,43 @@ export default {
             </p>
         </div>
         <img class="max-h-[46vw] w-full" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/6286bffa4218c2123adbf172_S04_38NewcastleStreet_INT_PH%20203%20Living_FINAL.jpg" alt="kd"/>
-        <div class="p-[120px] text-center">
-            <p class="text-center leading-[1.5] font-light text-xl mb-[24px] font-[Sangbleuogsans,sans-serif]">
-                From the grand entrance that sweeps you into its embrace, Callista promises something truly beguiling. Behold an enclave of 8 luxuriously appointed apartments, generously proportioned and meticulously crafted. Step inside and you’ll find Callista has cast its spell, and your destiny awaits.
-            </p>
+        <div class="p-[120px]">
+            <div class="grid grid-cols-2 gap-20">
+                <div class="flex items-center justify-end">
+                    <h2 class="text-[6.5vw] lg:text-[4.4vw] text-[#314c5d] lg:mb-0 mb-2">Our Services</h2>
+                </div>
+                <div>
+                    <div>
+                        <h4 class="text-[6.5vw] lg:text-[1.5vw] font-bold lg:mb-0 mb-2 uppercase">Architectural Design</h4>
+                        <p class="leading-[1.5] font-light text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
+                            Kami memberikan desain bangunan yang sesuai dengan keinginan klien. 
+                            Desain bangunan merupakan gambar yang siap digunakan untuk membangun suatu bangunan.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h4 class="text-[6.5vw] lg:text-[1.5vw] font-bold lg:mb-0 mb-2 uppercase">Interior Design</h4>
+                        <p class="leading-[1.5] font-light text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
+                            Kami memberikan desain Interior Ruang yang sesuai dengan keinginan klien. 
+                            Desain Interior merupakan gambar yang siap digunakan untuk mengatur atau mengkonfigurasi tata letak perabot.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h4 class="text-[6.5vw] lg:text-[1.5vw] font-bold lg:mb-0 mb-2 uppercase">Design Build</h4>
+                        <p class="leading-[1.5] font-light text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
+                            Kami dapat membantu untuk merealisasikan desain hingga terbangun. 
+                            Kami membantu pemilik bangunan dari awal hingga projek tersebut selesai.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+<!--             
             <a :href="contactLink" target="_blank" class="inline-block">
                 <span class="uppercase font-medium">Enquire</span>
                 <img class="ml-3 inline" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/62599f2afcc890357e83d01f_arrow-dark.svg" alt="arrow"/>
-            </a>
+            </a> -->
         </div>
     </main>
     <footer class="p-4 lg:p-20 pt-[25px] pb-[30px] bg-[#15242e]">
