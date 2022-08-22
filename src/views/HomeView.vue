@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    <header class="flex justify-between lg:px-20 py-7">
+    <header class="flex justify-between p-4 lg:px-20 py-7">
         <img src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/62547684c1f22a0134f063cd_callista-logo-dark.svg"/>
         <a class="uppercase font-normal" :href="contactLink" target="_blank">Enquire</a>
     </header>
@@ -24,7 +24,7 @@ export default {
                 <img class="ml-3 inline" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/62599f2afcc890357e83d01f_arrow-dark.svg" alt="arrow"/>
             </a>
         </div>
-        <div class="lg:p-20 pr-0 pb-0">
+        <div class="p-4 lg:p-20 pr-0 pb-0">
             <div class="p-10 rounded-tl-[50%] bg-[#f7f5ec] pr-0">
                 <img class="rounded-tl-[50%]" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/625966392ae0e1bd8e9f7c71_home-hero-hr.jpg" alt="imaks">
             </div>
@@ -45,13 +45,13 @@ export default {
             </a>
         </div>
     </main>
-    <footer class="lg:p-20 pb-[30px] bg-[#15242e]">
-        <div class="relative">
-            <img class="absolute w-[27.5vw] h-[352px] rounded-br-[50%]" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/62547688e3e50d82bb3e6a05_S01.2_38%20Newcastle%20Street_EXT_Vignette_Final-p-800.jpeg" alt="test"/>
+    <footer class="p-4 lg:p-20 pt-[25px] pb-[30px] bg-[#15242e]">
+        <div class="relative min-h-[120vw] lg:min-h-[unset] flex justify-center items-center">
+            <img class="absolute w-[50vw] h-[50vw] lg:w-[27.5vw] lg:h-[27.5vw] rounded-br-[50%] left-0 top-0" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/62547688e3e50d82bb3e6a05_S01.2_38%20Newcastle%20Street_EXT_Vignette_Final-p-800.jpeg" alt="test"/>
 
-            <img class="absolute w-[27.vw] h-[352px] rounded-tl-[50%] right-0 top-[5.5vw]" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/6254768f1d796259ed2119cf_S18.1_38NewcastleStreet_EXT_103Backyard_Final-p-800.jpeg" alt="ks">
+            <img class="absolute w-[50vw] h-[50vw] lg:w-[27.5vw] lg:h-[27.5vw] rounded-tl-[50%] right-0 top-[70vw] lg:top-[5.5vw]" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/6254768f1d796259ed2119cf_S18.1_38NewcastleStreet_EXT_103Backyard_Final-p-800.jpeg" alt="ks">
 
-            <h1 class="text-center text-[7.25vw] leading-[1] z-99 top-[2vw] relative text-white uppercase font-thin">
+            <h1 class="text-center lg:text-[7.25vw] text-[14vw] leading-[1] z-99 lg:top-[2vw] relative text-white uppercase font-thin">
                 Kresna
                 <br/>
                 Kartika
@@ -60,7 +60,7 @@ export default {
             </h1>
         </div>
 
-        <div class="mt-[170px] pb-[45px]">
+        <div class="lg:mt-[170px] mt-[25px] pb-[45px]">
             <div class="flex justify-center lg:gap-[2.5rem] gap-x-[12px] gap-y-[16px] flex-wrap">
                 <a class="text-white font-thin">
                     Outside
