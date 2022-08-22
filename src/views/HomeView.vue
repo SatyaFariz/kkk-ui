@@ -84,44 +84,61 @@ export default {
                     <h2 class="text-[6.5vw] lg:text-[4.4vw] text-[#314c5d] lg:mb-0 mb-4">Preliminary Stages</h2>
                 </div>
                 <div>
-                    <div>
-                        <div class="text-sm lg:text-[1.5vw] font-medium mb-1">Appointment</div>
-                        <p class="leading-[1.5] font-light text-sm lg:text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
-                            Anda dapat menghubungi kami dan menjadwalkan waktu yang tepat untuk bertemu dan
-                            membahas rencana pekerjaan yang dilakukan.
-                        </p>
+
+                    <div class="flex gap-2">
+                        <div class="text-sm lg:text-[1.5vw] font-medium mb-1">1.</div>
+                        <div>
+                            <div class="text-sm lg:text-[1.5vw] font-medium mb-1">Appointment</div>
+                            <p class="leading-[1.5] font-light text-sm lg:text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
+                                Anda dapat menghubungi kami dan menjadwalkan waktu yang tepat untuk bertemu dan
+                                membahas rencana pekerjaan yang dilakukan.
+                            </p>
+                        </div>
                     </div>
 
-                    <div>
-                        <div class="text-sm lg:text-[1.5vw] font-medium mb-1">Site Visit</div>
-                        <p class="leading-[1.5] font-light text-sm lg:text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
-                            Tim kami akan meninjau langsung kelapangan untuk melakukan survey dan juga pengukuran.
-                        </p>
+                    
+                    <div class="flex gap-2">
+                        <div class="text-sm lg:text-[1.5vw] font-medium mb-1">2.</div>
+                        <div>
+                            <div class="text-sm lg:text-[1.5vw] font-medium mb-1">Site Visit</div>
+                            <p class="leading-[1.5] font-light text-sm lg:text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
+                                Tim kami akan meninjau langsung kelapangan untuk melakukan survey dan juga pengukuran.
+                            </p>
+                        </div>
                     </div>
 
-                    <div>
-                        <div class="text-sm lg:text-[1.5vw] font-medium mb-1">Creative Process</div>
-                        <p class="leading-[1.5] font-light text-sm lg:text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
-                            Tim kami bersama anda akan membuat sebuah keputusan arahan desain yang akan dilaksanakan dan
-                            pengumpulan referensi.
-                        </p>
+                    <div class="flex gap-2">
+                        <div class="text-sm lg:text-[1.5vw] font-medium mb-1">3.</div>
+                        <div>
+                            <div class="text-sm lg:text-[1.5vw] font-medium mb-1">Creative Process</div>
+                            <p class="leading-[1.5] font-light text-sm lg:text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
+                                Tim kami bersama anda akan membuat sebuah keputusan arahan desain yang akan dilaksanakan dan
+                                pengumpulan referensi.
+                            </p>
+                        </div>
                     </div>
 
-                    <div>
-                        <div class="text-sm lg:text-[1.5vw] font-medium mb-1">Drawing Detail</div>
-                        <p class="leading-[1.5] font-light text-sm lg:text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
-                            Tim kami akan memproduksi gambar detail sesuai dengan kesepakatan yang telah dilakukan.
-                            Dalam tahap ini tim kami bersama anda akan membahas projek secara bertahap untuk hasil
-                            yang optimal dan maksimal.
-                        </p>
+                    <div class="flex gap-2">
+                        <div class="text-sm lg:text-[1.5vw] font-medium mb-1">4.</div>
+                        <div>
+                            <div class="text-sm lg:text-[1.5vw] font-medium mb-1">Drawing Detail</div>
+                            <p class="leading-[1.5] font-light text-sm lg:text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
+                                Tim kami akan memproduksi gambar detail sesuai dengan kesepakatan yang telah dilakukan.
+                                Dalam tahap ini tim kami bersama anda akan membahas projek secara bertahap untuk hasil
+                                yang optimal dan maksimal.
+                            </p>
+                        </div>
                     </div>
 
-                    <div>
-                        <div class="text-sm lg:text-[1.5vw] font-medium mb-1">Design Implementation</div>
-                        <p class="leading-[1.5] font-light text-sm lg:text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
-                            Tim kami akan melakukan pengawasan pada pekerjaan fisik bangunan dan juga akan melaksanakan
-                            pembangunan sesuai dengan arah desain yang telah disepakati.
-                        </p>
+                    <div class="flex gap-2">
+                        <div class="text-sm lg:text-[1.5vw] font-medium mb-1">5.</div>
+                        <div>
+                            <div class="text-sm lg:text-[1.5vw] font-medium mb-1">Design Implementation</div>
+                            <p class="leading-[1.5] font-light text-sm lg:text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
+                                Tim kami akan melakukan pengawasan pada pekerjaan fisik bangunan dan juga akan melaksanakan
+                                pembangunan sesuai dengan arah desain yang telah disepakati.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 
