@@ -15,23 +15,27 @@ export default {
     </header>
     <main class="pt-20">
         <div class="absolute left-1/2 transform -translate-x-1/2 text-center">
-            <h1 class="text-[7.3vw] font-thin leading-[1] uppercase lg:w-[1000px]">Kresna <br/> Kartika Karya</h1>
+            <h1 class="text-[7.3vw] font-thin leading-[1] uppercase lg:w-[1000px] text-[#15242e]">Kresna <br/> Kartika Karya</h1>
             <p class="max-w-[30vw] text-center mt-[10px] mb-[30px] mx-auto font-normal text-[1.15vw]">
-                One of Sydney’s most refined neighbourhoods is now home to an exclusive new development that fuses contemporary luxury with timeless design. Welcome to Callista.
+                Dengan tim yang terdiri dari para profesional muda yang memiliki integritas dan kreativitas dalam bidangnya,
+                kami berkomitmen memberikan pelayanan terbaik yang bertujuan pada kesuksesan setiap proyek agar terciptanya
+                kepuasan klien.
             </p>
             <a :href="contactLink" target="_blank" class="inline-block">
                 <span class="uppercase font-medium">Enquire</span>
                 <img class="ml-3 inline" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/62599f2afcc890357e83d01f_arrow-dark.svg" alt="arrow"/>
             </a>
         </div>
-        <div class="p-4 lg:p-20 pr-0 pb-0">
+        <div class="p-4 lg:p-20 lg:pr-0 lg:pb-0">
             <div class="p-10 rounded-tl-[50%] bg-[#f7f5ec] pr-0">
                 <img class="rounded-tl-[50%]" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/625966392ae0e1bd8e9f7c71_home-hero-hr.jpg" alt="imaks">
             </div>
         </div>
-        <div class="p-[120px]">
-            <p class="text-center leading-[1.5] font-light text-xl font-[Sangbleuogsans,sans-serif]">
-                From the grand entrance that sweeps you into its embrace, Callista promises something truly beguiling. Behold an enclave of 8 luxuriously appointed apartments, generously proportioned and meticulously crafted. Step inside and you’ll find Callista has cast its spell, and your destiny awaits.
+        <div class="lg:p-[120px] p-[70px] text-center">
+            <h2 class="text-[6.5vw] lg:text-[4.4vw] text-[#314c5d] lg:mb-0 mb-2">Our Mission</h2>
+            <p class="text-center leading-[1.5] font-light text-medium lg:text-xl font-[Sangbleuogsans,sans-serif]">
+                Memberikan pelayanan terbaik, selalu memberikan inovasi dan menciptakan design terbaik sesuai dengan keinginan klien, 
+                serta menjaga keharmonisan dan kesejahteraan tim sehingga mencapai hasil yang maksimal.
             </p>
         </div>
         <img class="max-h-[46vw] w-full" src="https://uploads-ssl.webflow.com/61dff2e527e69016db378cd3/6286bffa4218c2123adbf172_S04_38NewcastleStreet_INT_PH%20203%20Living_FINAL.jpg" alt="kd"/>
