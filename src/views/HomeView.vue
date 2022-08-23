@@ -35,7 +35,7 @@ export default {
           },
           {
               idx: 5,
-              us: 'fist design proposal',
+              us: 'first design proposal',
               you: 'third meeting'
           },
           {
@@ -45,7 +45,7 @@ export default {
           },
           {
               idx: 7,
-              us: 'revision phase detail drawing',
+              us: 'revision phase\ndetail drawing',
               you: 'fourth meeting'
           },
           {
@@ -201,31 +201,37 @@ export default {
             </div>
         </div>
 
-        <div class="lg:p-[120px] py-[70px]">
-            <div class="lg:grid lg:grid-cols-3 gap-20">
-                <div class="flex items-center lg:justify-center lg:justify-end">
+        <div class="lg:p-[120px] py-[70px] px-4">
+            <div class="grid grid-cols-[1fr_auto_1fr] gap-5 lg:gap-20 mb-4">
+                <div class="flex items-center justify-center">
                     <h2 class="text-[6.5vw] lg:text-[4.4vw] text-[#314c5d] lg:mb-0 mb-4">Us</h2>
                 </div>
-                <div></div>
-                <div class="flex items-center lg:justify-center lg:justify-end">
+                <div>
+                    <h3 class="text-sm lg:text-[1.5vw] invisible">0</h3>
+                </div>
+                <div class="flex items-center justify-center">
                     <h2 class="text-[6.5vw] lg:text-[4.4vw] text-[#314c5d] lg:mb-0 mb-4">You</h2>
                 </div>
             </div>
         
-            <div class="flex flex-col justify-center gap-14">
+            <div class="flex flex-col justify-center gap-8 lg:gap-14">
                 <div v-for="(phase, index) in project_phases" :key="phase.idx">
                     <div v-if="index === 0 || index === project_phases.length - 1" class="flex justify-center">
-                        <div class="text-sm lg:text-[1.5vw] font-medium uppercase">{{phase.us}}</div>
+                        <h3 class="text-sm lg:text-[1.5vw] font-black text-[#314c5d] uppercase">{{phase.us}}</h3>
                     </div>
-                    <div v-else class="grid grid-cols-[1fr_auto_1fr] gap-20">
-                        <div class="flex justify-end">
-                            <div class="text-sm lg:text-[1.5vw] font-medium uppercase">{{ phase.us }}</div>
+                    <div v-else class="grid grid-cols-[1fr_auto_1fr] gap-5 lg:gap-20">
+                        <div class="flex justify-end items-center">
+                            <h3 class="text-sm lg:text-[1.5vw] font-black text-[#314c5d] uppercase text-end whitespace-pre-wrap leading-[1.5]">{{ phase.us }}</h3>
                         </div>
-                        <div class="flex justify-center">
-                            <div class="text-sm lg:text-[1.5vw] font-medium uppercase">{{ index }}</div>
+                        <div class="flex justify-center items-center">
+                            <div class="rounded-full bg-[#314c5d] lg:p-6 p-4 relative">
+                                <div class="absolute left-0 right-0 bottom-0 top-0 flex items-center justify-center">
+                                    <h3 class="text-sm lg:text-[1.5vw] font-black text-white uppercase">{{ index }}</h3>
+                                </div>
+                            </div>
                         </div>
-                        <div class="flex justify-start">
-                            <div class="text-sm lg:text-[1.5vw] font-medium uppercase">{{ phase.you }}</div>
+                        <div class="flex justify-start items-center">
+                            <h3 class="text-sm lg:text-[1.5vw] font-black text-[#314c5d] uppercase whitespace-pre-wrap leading-[1.5]">{{ phase.you }}</h3>
                         </div>
                     </div>
                 </div>
