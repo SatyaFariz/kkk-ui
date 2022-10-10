@@ -281,6 +281,71 @@ export default {
                 
             </div>
         </div>
+
+        <div class="lg:p-[120px] py-[70px] px-4">
+            <div class="flex items-center justify-center lg:justify-center lg:justify-end">
+                <h2 class="text-[6.5vw] lg:text-[4.4vw] text-[#314c5d] lg:mb-0 mb-4">Design Packages Option</h2>
+            </div>
+
+            <div class="flex flex-col gap-3">
+                <div class="p-2 border-[#314c5d] border-[1px]">
+                    <div class="flex gap-6">
+                        <div class="flex flex-col items-end mt-4">
+                            <p class="text-[6.5vw] lg:text-[4.4vw] text-[#314c5d] leading-[0.9]">Gold</p>
+                            <p class="text-xs text-[#314c5d]">Package</p>
+                        </div>
+                        <div>
+                            <p class="font-medium text-[#314c5d]">Including</p>
+                            <p class="text-xs text-[#314c5d]">Architectural Design</p>
+                            <p class="text-xs text-[#314c5d]">Detail Engineering Design</p>
+                            <p class="text-xs text-[#314c5d]">Mechanical & Electrical</p>
+                            <p class="text-xs text-[#314c5d]">3D Visual</p>
+                            <p class="text-xs text-[#314c5d]">Budget Plan</p>
+                            <p class="text-xs text-[#314c5d]">Project Supervision</p>
+                        </div>
+                    </div>
+                    <p class="text-xs text-[#314c5d] mt-4 text-end">Minimal requirement 100 m2</p>
+                </div>
+
+                <div class="p-2 border-[#314c5d] border-[1px]">
+                    <div class="flex justify-between">
+                        <div>
+                            <p class="font-medium text-[#314c5d]">Including</p>
+                            <p class="text-xs text-[#314c5d]">Interior Design</p>
+                            <p class="text-xs text-[#314c5d]">Detail Engineering Design (Interior)</p>
+                            <p class="text-xs text-[#314c5d]">3D Visual</p>
+                            <p class="text-xs text-[#314c5d]">Budget Plan</p>
+                            <p class="text-xs text-[#314c5d]">Project Supervision</p>
+                        </div>
+                        <div class="flex flex-col items-end mt-4">
+                            <p class="text-[6.5vw] lg:text-[4.4vw] text-[#314c5d] leading-[0.9]">Interior</p>
+                            <p class="text-xs text-[#314c5d]">Package</p>
+                        </div>
+                    </div>
+                    <p class="text-xs mt-4 text-end text-[#314c5d]">Minimal requirement 30 m2</p>
+                </div>
+
+                <div class="p-2 border-[#314c5d] border-[1px]">
+                    <div class="flex gap-6">
+                        <div class="flex flex-col items-end mt-4">
+                            <p class="text-[6.5vw] lg:text-[4.4vw] text-[#314c5d] leading-[0.9]">Platinum</p>
+                            <p class="text-xs text-[#314c5d]">Package</p>
+                        </div>
+                        <div>
+                            <p class="font-medium text-[#314c5d]">Including</p>
+                            <p class="text-xs text-[#314c5d]">Architectural Design</p>
+                            <p class="text-xs text-[#314c5d]">Detail Engineering Design</p>
+                            <p class="text-xs text-[#314c5d]">Detail Interior Design</p>
+                            <p class="text-xs text-[#314c5d]">Mechanical & Electrical</p>
+                            <p class="text-xs text-[#314c5d]">3D Visual</p>
+                            <p class="text-xs text-[#314c5d]">Budget Plan</p>
+                            <p class="text-xs text-[#314c5d]">Project Supervision</p>
+                        </div>
+                    </div>
+                    <p class="text-xs text-[#314c5d] mt-4 text-end">Minimal requirement 100 m2</p>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="p-4 lg:p-20 pt-[25px] pb-[30px] bg-[#15242e]">
         <div class="relative min-h-[120vw] lg:min-h-[unset] flex justify-center items-center">
