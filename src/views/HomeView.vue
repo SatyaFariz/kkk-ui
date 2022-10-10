@@ -136,7 +136,7 @@ export default {
 
         <div class="lg:p-[120px] py-[70px] px-4 bg-[#f7f5ec]">
             <div class="lg:grid lg:grid-cols-2 gap-20">
-                <div class="flex items-center lg:justify-center lg:justify-end">
+                <div class="flex items-center justify-center lg:justify-center lg:justify-end">
                     <h2 class="text-[6.5vw] lg:text-[4.4vw] text-[#314c5d] lg:mb-0 mb-4">Preliminary Stages</h2>
                 </div>
                 <div>
@@ -235,6 +235,50 @@ export default {
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="lg:p-[120px] py-[70px] px-4 bg-[#f7f5ec]">
+            <div class="lg:grid lg:grid-cols-2 gap-20">
+                <div class="flex items-center justify-center lg:justify-center lg:justify-end">
+                    <h2 class="text-[6.5vw] lg:text-[4.4vw] text-[#314c5d] lg:mb-0 mb-4">Why Us?</h2>
+                </div>
+                <div>
+
+                    <div class="flex gap-2">
+                        <!-- <div class="text-sm lg:text-[1.5vw] font-medium mb-1">1.</div> -->
+                        <div>
+                            <div class="text-sm lg:text-[1.5vw] font-medium mb-1">Quality Service</div>
+                            <p class="leading-[1.5] font-light text-sm lg:text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
+                                Tidak hanya melayani Anda, kami juga berkolaborasi dengan Anda, sehingga semua menjadi
+                                seperti yang Anda dan kami inginkan.
+                            </p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="flex gap-2">
+                        <!-- <div class="text-sm lg:text-[1.5vw] font-medium mb-1">2.</div> -->
+                        <div>
+                            <div class="text-sm lg:text-[1.5vw] font-medium mb-1">Free Consultation</div>
+                            <p class="leading-[1.5] font-light text-sm lg:text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
+                                Anda dapat berkonsultasi gratis dengan kami mengenai masalah Anda untuk mendapatkan saran dan
+                                solusi dari kami.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-2">
+                        <!-- <div class="text-sm lg:text-[1.5vw] font-medium mb-1">3.</div> -->
+                        <div>
+                            <div class="text-sm lg:text-[1.5vw] font-medium mb-1">Easy and Fast Response</div>
+                            <p class="leading-[1.5] font-light text-sm lg:text-base mb-[24px] font-[Sangbleuogsans,sans-serif]">
+                                Anda dapat menghubungi kami dengan mudah melalui banyak cara dan kami akan merespon Anda sesegera mungkin.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </main>
