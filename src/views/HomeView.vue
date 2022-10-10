@@ -304,7 +304,7 @@ export default {
                             <p class="text-xs lg:text-sm text-[#314c5d]">Project Supervision</p>
                         </div>
                     </div>
-                    <p class="text-xs text-[#314c5d] mt-4 text-end">Minimal requirement 100 m2</p>
+                    <p class="text-xs text-[#314c5d] mt-4 text-end">Minimal requirement 100 m²</p>
                 </div>
 
                 <div class="p-2 lg:p-4 border-[#314c5d] border-[1px]">
@@ -322,7 +322,7 @@ export default {
                             <p class="text-xs text-[#314c5d]">Package</p>
                         </div>
                     </div>
-                    <p class="text-xs mt-4 text-end text-[#314c5d]">Minimal requirement 30 m2</p>
+                    <p class="text-xs mt-4 text-end text-[#314c5d]">Minimal requirement 30 m²</p>
                 </div>
 
                 <div class="p-2 lg:p-4 border-[#314c5d] border-[1px]">
@@ -342,7 +342,7 @@ export default {
                             <p class="text-xs lg:text-sm text-[#314c5d]">Project Supervision</p>
                         </div>
                     </div>
-                    <p class="text-xs text-[#314c5d] mt-4 text-end">Minimal requirement 100 m2</p>
+                    <p class="text-xs text-[#314c5d] mt-4 text-end">Minimal requirement 100 m²</p>
                 </div>
             </div>
         </div>
